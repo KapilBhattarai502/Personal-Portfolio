@@ -11,11 +11,11 @@ body {
 .header {
   width: 100%;
   height: 100vh;
-  background-image: url("https://static.vecteezy.com/system/resources/previews/034/341/979/non_2x/young-man-working-on-computer-late-at-night-in-dark-office-male-designer-using-desktop-computer-portrait-man-and-smile-of-programmer-on-computer-in-office-workplace-at-night-ai-generated-free-photo.jpg");
+  background-image: url("https://static.vecteezy.com/system/resources/previews/027/597/873/non_2x/anonymous-dark-figure-with-boxing-gloves-engaging-in-cyber-crime-and-malware-activities-with-a-focus-on-internet-hacking-and-system-disruption-silhouette-concept-free-photo.jpg");
   background-size: cover;
   background-position: center;
 }
-.container {
+.header .container {
   padding: 10px 10%;
 }
 nav {
@@ -59,4 +59,13 @@ nav ul li a::after {
 nav ul li a:hover::after{
     width: 100%;
 
+}
+.header-text{
+  margin-top: 20%;
+  font-size: 30px;
+
+}
+.header-text h1{
+  font-size: 60px;
+  margin-top: 20px;
 }
