@@ -152,6 +152,32 @@ nav ul li a:hover::after{
 
 /*              Services                       */
 
+.services .container{
+  padding: 50px;
+}
 
-
+.services-row{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top:40px;
+}
+.service-section{
+  background-color: #3c383a;
+  margin-right: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+.service-section p {
+  font-size: 10px;
+  
+}
+.service-section h3{
+  margin:15px 0 8px 0;
+}
+.service-section .learn-more{
+  margin: 10px 0 10px 0;
+}
+.service-section:hover{
+  background-color: #ff004f;
+}
 
