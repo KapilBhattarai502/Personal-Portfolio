@@ -25,7 +25,7 @@
         </nav>
         <div class="header-text">
           <p>FULL STACK DEVELOPER</p>
-          <h1>Hi ,I'm Kapil <br>Bhattarai From Nepal </h1>
+          <h1>Hi ,I'm Kapil <br />Bhattarai From Nepal</h1>
         </div>
       </div>
     </div>
@@ -34,22 +34,95 @@
       <div class="container">
         <div class="row">
           <div class="about-col-1">
-            <img src="./images/myImage.jpg" alt="myImage"/>
+            <img src="./images/myImage.jpg" alt="myImage" />
           </div>
           <div class="about-col-2">
             <h1 class="sub-title">About Me</h1>
-            <p>I’m a passionate web developer who loves coming up with creative digital solutions. I adore experimenting with new technologies and pushing the envelope to create intuitive web experiences.</p>
+            <p>
+              I’m a passionate web developer who loves coming up with creative
+              digital solutions. I adore experimenting with new technologies and
+              pushing the envelope to create intuitive web experiences.
+            </p>
 
             <div class="tab-titles">
-              <p class="tab-links active-link">Skills</p>
-              <p class="tab-links">Experience</p>
-              <p class="tab-links">Education</p>
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
             </div>
-
+            
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Full Stack</span><br />Building a complete working
+                  website
+                </li>
+                <li><span>Web Development </span><br />Web App Development</li>
+                <li>
+                  <span>Video Editing</span><br />Editing video professionally
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Full Stack Intern</span><br />Got a chance for intership
+                  in Cognifyz Technologies
+                </li>
+                <li><span>Web Development </span><br />Web App Development</li>
+                <li>
+                  <span>Video Editing</span><br />Editing video professionally
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Bachelor Level Education</span><br />Got a chance for
+                  intership in Cognifyz Technologies
+                </li>
+                <li><span>Higher Education </span><br />Web App Development</li>
+                <li>
+                  <span>School Level Education</span><br />Editing video
+                  professionally
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <!--------------------------services -------------------------->
+    <div class="services">
+      <div class="container">
+        <h1>My Services</h1>
+        <div class="services-row">
+          <div class="web-design">
+            <i class="fa-solid fa-code"></i>
+            <h3>Web Design</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit molestiae illum officia.</p>
+            <p>Learn More</p>
+          </div>
+          <div class="video-editing">
+            <i class="fa-solid fa-photo-film"></i>
+            <h3>Video Editing</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit molestiae illum officia.</p>
+            <p>Learn More</p>
+          </div>
+          <div class="app-design">
+            <i class="fa-brands fa-app-store"></i>
+            <h3>App Design</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit molestiae illum officia.</p>
+            <p>Learn More</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
 
     <script src="./script.js"></script>
   </body>
