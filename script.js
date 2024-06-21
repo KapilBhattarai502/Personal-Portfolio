@@ -13,6 +13,6 @@ function opentab(tabname){
         tabcontent.classList.remove("active-tab");
         document.getElementById(tabname).classList.add("active-tab")
     }
-//    event.target.classList.add("active-link");
+   event.target.classList.add("active-link");
 
 }
